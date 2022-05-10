@@ -1,4 +1,4 @@
-# Testes API com Cypressac shop: http://lojaebac.ebaconline.art.br/
+# Testes API com Cypress
 
 Utilizando ServRest: https://serverest.dev
 
