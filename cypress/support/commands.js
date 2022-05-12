@@ -43,13 +43,12 @@ Cypress.Commands.add('token', (email, senha) => {
         method:'POST',
         url: 'produtos',
         headers: {authorization: token},
+        failOnStatusCode: false,
         body: {
             "nome": produto,
             "preco": preco,
             "descricao": descricao,
             "quantidade": quantidade
           },
-
-          failOnStatusCode: false
     })
  })
