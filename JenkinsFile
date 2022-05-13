@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Clonar o repositorio') {
+            steps {
+                git 'https://https://github.com/Aluizi-hub/Teste-api-Cypress'
+            }
+        }
+                stage('Instalar dependencias') {
+            steps {
+                bat 'npm install'
+            }
+        }
+                stage('Executar os teste') {
+            steps {
+                bat 'NO_COLOR=1 npm run cy:run'
+            }
+        }
+    }
+}
