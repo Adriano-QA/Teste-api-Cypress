@@ -28,3 +28,5 @@ npx cypress open
 
 ### Bibliotecas de apoio:
 -Cypress: Framework de automação: https://cypress.io/
+-Mochaawesome: https://www.npmjs.com/package/mochawesome
+-FakerJS: https://fakerjs.dev/guide/
